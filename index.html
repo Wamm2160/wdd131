@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 131 – Dynamic Web Fundamentals – Wilson Macías</title>
+    <meta
+      name="description"
+      content="WDD 131 – Dynamic Web Fundamentals home page for Wilson Macías. This page includes course links, personal information, and dynamic JavaScript dates."
+    />
+    <meta name="author" content="Wilson Macías" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <script src="scripts/getdates.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+
+      <nav>
+        <a href="https://www.linkedin.com/in/wilson-macias/" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+        <a
+          href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
+          target="_blank"
+          >Scripture</a
+        >
+        <a href="#">Final Project</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Wilson Macías</h1>
+
+      <div class="card-grid">
+        <section class="card">
+          <h2>About Me</h2>
+          <div class="card-content">
+            <img
+              src="images/profile.webp"
+              alt="Photo of Wilson Macías"
+              width="250"
+              height="300"
+            />
+            <p>
+              My name is Wilson Macías. I am learning web development through
+              WDD 131. I am interested in improving my skills in HTML, CSS,
+              JavaScript, and programming. My goal is to become a stronger
+              developer and create useful websites and applications.
+            </p>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Mexico</h2>
+          <div class="card-content">
+            <img
+              src="images/mexico.webp"
+              alt="Landscape or cultural image from Mexico"
+              width="250"
+              height="300"
+            />
+            <p>
+              I live in Mexico, a country known for its culture, food, history,
+              and beautiful places. Mexico has many traditions and a strong
+              sense of family and community. I am grateful for the opportunity
+              to study and continue developing new skills.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy;<span id="currentyear"></span> Wilson Macías | Mexico</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
