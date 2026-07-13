@@ -15,17 +15,17 @@
     display: none;
   }
 
-  .navigation,
-  .navigation.open {
-    display: flex;
+  nav {
     flex-direction: row;
     align-items: center;
     margin-top: 0;
-    border-top: 0;
+    border-top: none;
   }
 
-  .navigation a {
-    border-bottom: 0;
+  nav a {
+    display: block;
+    padding: 0.8rem 1rem;
+    border-bottom: none;
     border-radius: 0.35rem;
   }
 
@@ -43,7 +43,9 @@
   }
 
   figure {
-    transition: transform 180ms ease, box-shadow 180ms ease;
+    transition:
+      transform 180ms ease,
+      box-shadow 180ms ease;
   }
 
   figure:hover {

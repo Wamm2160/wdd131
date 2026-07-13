@@ -1,18 +1,22 @@
 const menuButton = document.querySelector("#menu");
-const navigation = document.querySelector(".navigation");
-const currentYear = document.querySelector("#currentyear");
-const lastModified = document.querySelector("#lastModified");
+const navigation = document.querySelector("nav");
 
 menuButton.addEventListener("click", () => {
-  const isOpen = navigation.classList.toggle("open");
+  navigation.classList.toggle("open");
 
-  menuButton.textContent = isOpen ? "✕" : "☰";
-  menuButton.setAttribute("aria-expanded", String(isOpen));
-  menuButton.setAttribute(
-    "aria-label",
-    isOpen ? "Close navigation menu" : "Open navigation menu"
-  );
+  if (navigation.classList.contains("open")) {
+    menuButton.textContent = "✕";
+    menuButton.setAttribute("aria-label", "Close navigation menu");
+    menuButton.setAttribute("aria-expanded", "true");
+  } else {
+    menuButton.textContent = "☰";
+    menuButton.setAttribute("aria-label", "Open navigation menu");
+    menuButton.setAttribute("aria-expanded", "false");
+  }
 });
 
-currentYear.textContent = new Date().getFullYear();
-lastModified.textContent = `Last Modified: ${document.lastModified}`;
+// Footer
+document.querySelector("#currentyear").textContent = new Date().getFullYear();
+
+document.querySelector("#lastModified").textContent =
+  `Last Modified: ${document.lastModified}`;
