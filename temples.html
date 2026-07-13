@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Album | WDD 131 | Wilson Macías</title>
+    <meta
+      name="description"
+      content="WDD 131 responsive temple picture album by Wilson Macías featuring a mobile hamburger menu, responsive images, and dynamic footer dates."
+    />
+    <meta name="author" content="Wilson Macías" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/temples.css" />
+    <link rel="stylesheet" href="styles/temples-large.css" />
+    <script src="scripts/temples.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <span class="site-title">Temple Album</span>
+
+        <button
+          id="menu"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <nav
+          id="primary-navigation"
+          class="navigation"
+          aria-label="Primary navigation"
+        >
+          <a class="active" href="temples.html">Home</a>
+          <a href="#">Old</a>
+          <a href="#">New</a>
+          <a href="#">Large</a>
+          <a href="#">Small</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1>Home</h1>
+
+      <div class="temple-grid">
+        <figure>
+          <img
+            src="images/San Diego California.jpeg"
+            alt="Illustrated placeholder of the San Diego California Temple"
+            width="600"
+            height="400"
+          />
+          <figcaption>San Diego California</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Mexico City.jpeg"
+            alt="Illustrated placeholder of the Mexico City Mexico Temple"
+            width="600"
+            height="400"
+          />
+          <figcaption>Mexico City Mexico</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Queretaro Mexico.jpeg"
+            alt="Illustrated placeholder of the Querétaro Mexico Temple"
+            width="600"
+            height="400"
+          />
+          <figcaption>Querétaro Mexico</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Salt Lake Utah.jpeg"
+            alt="Illustrated placeholder of the Salt Lake Temple"
+            width="600"
+            height="400"
+          />
+          <figcaption>Salt Lake Utah</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Rome Italia.jpeg"
+            alt="Illustrated placeholder of the Rome Italy Temple"
+            width="600"
+            height="400"
+          />
+          <figcaption>Rome Italy</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Paris France.jpeg"
+            alt="Illustrated placeholder of the Paris France Temple"
+            width="600"
+            height="400"
+          />
+          <figcaption>Paris France</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Tokyo Japan.jpeg"
+            alt="Illustrated placeholder of the Tokyo Japan Temple"
+            width="600"
+            height="400"
+          />
+          <figcaption>Tokyo Japan</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Lima Peru.jpeg"
+            alt="Illustrated placeholder of the Lima Peru Temple"
+            width="600"
+            height="400"
+          />
+          <figcaption>Lima Peru</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Sao Paulo Brazil.jpeg"
+            alt="Illustrated placeholder of the São Paulo Brazil Temple"
+            width="600"
+            height="400"
+          />
+          <figcaption>São Paulo Brazil</figcaption>
+        </figure>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="currentyear"></span> Wilson Macías | Mexico</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
