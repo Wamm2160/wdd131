@@ -1,0 +1,188 @@
+:root {
+  --primary-color: #17233a;
+  --secondary-color: #263a5f;
+  --accent-color: #f4b942;
+  --background-color: #f6f8fb;
+  --surface-color: #eeeeec;
+  --text-color: #1f2937;
+  --muted-color: #4b5563;
+  --border-color: #cfd5dd;
+  --heading-font: "Montserrat", Arial, sans-serif;
+  --body-font: "Roboto", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--background-color);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-family: var(--body-font);
+}
+
+header {
+  color: white;
+  background-color: var(--primary-color);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 18%);
+}
+
+.header-content {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.site-title {
+  display: block;
+  padding-right: 4rem;
+  font-family: var(--heading-font);
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+
+#menu {
+  position: absolute;
+  top: 0.65rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.4rem;
+  color: white;
+  background: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#menu:hover,
+#menu:focus-visible {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+
+#menu:focus-visible,
+nav a:focus-visible {
+  outline: 3px solid white;
+  outline-offset: 2px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-top: 1px solid rgb(255 255 255 / 25%);
+}
+
+nav a {
+  display: none;
+  padding: 0.9rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid rgb(255 255 255 / 12%);
+  transition:
+    color 180ms ease,
+    background-color 180ms ease;
+}
+
+nav.open a {
+  display: block;
+}
+
+nav a:hover,
+nav a.active {
+  color: #111827;
+  background-color: var(--accent-color);
+}
+
+nav a.active {
+  font-weight: 700;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 2.5rem;
+}
+
+h1 {
+  margin: 0 0 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  font-family: var(--heading-font);
+}
+
+.temple-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.temple-card {
+  margin: 0;
+  overflow: hidden;
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  box-shadow: 0 3px 10px rgb(23 35 58 / 12%);
+}
+
+.temple-card__content {
+  padding: 1.4rem 1rem 1.2rem;
+  text-align: center;
+}
+
+.temple-card h2 {
+  margin: 0 0 1rem;
+  color: #39251e;
+  font-family: var(--heading-font);
+  font-size: 1.55rem;
+}
+
+.temple-card p {
+  margin: 0.32rem 0;
+  color: var(--text-color);
+  line-height: 1.35;
+}
+
+.temple-card .label {
+  color: #49332b;
+  font-variant: small-caps;
+  font-weight: 700;
+}
+
+.temple-card img {
+  display: block;
+  width: calc(100% - 2rem);
+  height: auto;
+  margin: 0 1rem 1rem;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background-color: #d9dde3;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 18%);
+}
+
+footer {
+  padding: 1rem;
+  color: white;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+footer p {
+  margin: 0.35rem 0;
+}
+
+#lastModified {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+}
