@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Country page about Mexico with responsive images, weather information, and country data.">
+  <meta name="author" content="Wilson Macías">
+  <title>Mexico | Country Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header><h1>Mexico</h1></header>
+  <main>
+    <div class="hero">
+      <picture>
+        <source srcset="images/mexico-large.webp" media="(min-width: 800px)">
+        <img src="images/mexico-small.webp"
+             alt="Mexican landscape with mountains, a pyramid, desert plants, and warm sunset colors"
+             width="1500" height="750">
+      </picture>
+
+      <section class="card data">
+        <h2>Data</h2>
+        <dl>
+          <div><dt>Area:</dt><dd>1,964,375 km²</dd></div>
+          <div><dt>Population:</dt><dd>Approximately 130 million</dd></div>
+          <div><dt>Capital:</dt><dd>Mexico City</dd></div>
+          <div><dt>Language:</dt><dd>Spanish</dd></div>
+          <div><dt>Currency:</dt><dd>Mexican peso (MXN)</dd></div>
+          <div><dt>Time Zones:</dt><dd>UTC−8 to UTC−5</dd></div>
+          <div><dt>Calling Code:</dt><dd>+52</dd></div>
+          <div><dt>Internet TLD:</dt><dd>.mx</dd></div>
+        </dl>
+      </section>
+
+      <section class="card weather">
+        <h2>Weather</h2>
+        <img class="weather-icon" src="images/weather.svg"
+             alt="Partly cloudy weather" width="80" height="80">
+        <dl>
+          <div><dt>Temperature:</dt><dd><span id="temperature">8</span> °C</dd></div>
+          <div><dt>Conditions:</dt><dd>Partly Cloudy</dd></div>
+          <div><dt>Wind:</dt><dd><span id="windSpeed">12</span> km/h</dd></div>
+          <div><dt>Wind Chill:</dt><dd><span id="windChill">N/A</span></dd></div>
+        </dl>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Wilson Macías | Mexico</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
