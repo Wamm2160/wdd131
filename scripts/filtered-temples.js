@@ -61,7 +61,7 @@ const temples = [
     dedicated: "1893, April, 6",
     area: 253015,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-1232-main.jpg"
+      "https://www.churchofjesuschrist.org/imgs/c8f9e392284fb5ab45815e69507af83d668097bd/full/%2C500/0/default"
   },
   {
     templeName: "Rome Italy",
@@ -69,7 +69,7 @@ const temples = [
     dedicated: "2019, March, 10",
     area: 41010,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-3021-main.jpg"
+      "https://www.churchofjesuschrist.org/imgs/b0332690ddef21c555acb194507644bdff8690d0/full/%2C500/0/default"
   },
   {
     templeName: "Paris France",
@@ -77,7 +77,7 @@ const temples = [
     dedicated: "2017, May, 21",
     area: 44175,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/paris-france-temple/paris-france-temple-2029-main.jpg"
+      "https://www.churchofjesuschrist.org/imgs/76b9cf4bbdfaa0c5ac83e1ad129854da057c37d9/full/800%2C/0/default"
   }
 ];
 
