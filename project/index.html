@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Wilson Macías">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/norte-brunch.css">
+  <script src="scripts/norte-brunch.js" defer></script>
+  <meta name="description" content="Norte Brunch Mexican torta shop website with menu, hours, location, and contact information.">
+  <title>Norte Brunch | Fresh Mexican Tortas</title>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="Norte Brunch logo" width="64" height="64">
+        <span>Norte Brunch</span>
+      </a>
+      <button id="menu-button" type="button" aria-label="Open navigation menu" aria-controls="primary-nav" aria-expanded="false">☰</button>
+      <nav id="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Fresh • Warm • Homemade Flavor</p>
+        <h1>Mexican tortas made for a good brunch.</h1>
+        <p>Norte Brunch serves fresh tortas, cold drinks, coffee, and dessert in San José el Alto, Querétaro.</p>
+        <a class="button-link" href="menu.html">View Menu</a>
+      </div>
+      <img src="images/hero-tortas.PNG" alt="Illustration of Norte Brunch tortas" width="1200" height="700">
+    </section>
+
+    <section class="section-intro">
+      <h2>Featured Favorites</h2>
+      <p>These customer favorites are loaded from JavaScript using an array of product objects.</p>
+    </section>
+
+    <section id="featured-products" class="card-grid" aria-label="Featured menu products"></section>
+
+    <section class="info-grid">
+      <article>
+        <h2>Hours</h2>
+        <p>Open daily from <strong>8:00 a.m. to 8:00 p.m.</strong></p>
+        <p>Best time for dinner orders: <strong>5:00 p.m. to 7:00 p.m.</strong></p>
+      </article>
+      <article>
+        <h2>Location</h2>
+        <p>San José el Alto, Querétaro, Mexico.</p>
+        <p>Located in a small plaza on Av. Epigmenio González.</p>
+      </article>
+      <article>
+        <h2>Your Favorite</h2>
+        <p id="favorite-message">Choose a favorite product from the menu page.</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Wilson Macías | Mexico</p>
+    <p><a href="references.html">References</a></p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

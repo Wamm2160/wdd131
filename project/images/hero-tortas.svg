@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Fresh tortas at Norte Brunch</title>
+<desc id="desc">Illustration of a warm Mexican torta with avocado, meat, and fresh vegetables.</desc>
+<rect width="1200" height="700" fill="#fff4df"/>
+<circle cx="1010" cy="120" r="120" fill="#f4b942" opacity=".65"/>
+<circle cx="180" cy="550" r="160" fill="#d97706" opacity=".18"/>
+<ellipse cx="600" cy="450" rx="420" ry="88" fill="#3b2416" opacity=".18"/>
+<path d="M235 322c56-122 674-122 730 0 28 62-34 133-139 147-146 19-306 19-452 0-105-14-167-85-139-147Z" fill="#c87126"/>
+<path d="M290 335c126 47 494 47 620 0" fill="none" stroke="#fff4df" stroke-width="24" stroke-linecap="round"/>
+<path d="M325 384h550c28 0 50 22 50 50s-22 50-50 50H325c-28 0-50-22-50-50s22-50 50-50Z" fill="#7a2e17"/>
+<path d="M334 360c94 28 438 28 532 0" fill="none" stroke="#2f7d32" stroke-width="24" stroke-linecap="round"/>
+<circle cx="430" cy="404" r="24" fill="#7fcf6a"/>
+<circle cx="520" cy="410" r="24" fill="#7fcf6a"/>
+<circle cx="610" cy="404" r="24" fill="#7fcf6a"/>
+<circle cx="700" cy="410" r="24" fill="#7fcf6a"/>
+<circle cx="790" cy="404" r="24" fill="#7fcf6a"/>
+<text x="600" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#3b2416">Norte Brunch</text>
+<text x="600" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#6b3a1c">Fresh Mexican Tortas</text>
+</svg>

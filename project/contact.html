@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Wilson Macías">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/norte-brunch.css">
+  <script src="scripts/norte-brunch.js" defer></script>
+  <meta name="description" content="Contact Norte Brunch for menu questions, location, hours, and customer messages.">
+  <title>Contact | Norte Brunch</title>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="Norte Brunch logo" width="64" height="64">
+        <span>Norte Brunch</span>
+      </a>
+      <button id="menu-button" type="button" aria-label="Open navigation menu" aria-controls="primary-nav" aria-expanded="false">☰</button>
+      <nav id="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-heading">
+      <h1>Contact Norte Brunch</h1>
+      <p>Send us a message about the menu, location, hours, or customer feedback.</p>
+    </section>
+
+    <section class="contact-layout">
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Contact Form</legend>
+
+          <label for="full-name">Full Name <span class="required">*</span></label>
+          <input type="text" id="full-name" name="full-name" autocomplete="name" required>
+
+          <label for="email">Email Address <span class="required">*</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel" pattern="[0-9]{10}" title="Please enter a 10-digit phone number.">
+
+          <label for="reason">Reason for Contact <span class="required">*</span></label>
+          <select id="reason" name="reason" required>
+            <option value="" disabled selected>Select a reason ...</option>
+            <option value="menu">Menu question</option>
+            <option value="hours">Hours or location</option>
+            <option value="feedback">Feedback</option>
+            <option value="event">Event or large order</option>
+          </select>
+
+          <fieldset class="mini-fieldset">
+            <legend>Preferred Contact Method</legend>
+            <label><input type="radio" name="contact-method" value="email" required> Email</label>
+            <label><input type="radio" name="contact-method" value="phone" required> Phone</label>
+          </fieldset>
+
+          <label for="message">Message <span class="required">*</span></label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <input type="submit" value="Send Message">
+        </fieldset>
+      </form>
+
+      <aside class="contact-card">
+        <h2>Visit Us</h2>
+        <p><strong>Location:</strong> San José el Alto, Querétaro.</p>
+        <p><strong>Hours:</strong> 8:00 a.m. to 8:00 p.m.</p>
+        <p><strong>Specialty:</strong> tortas de adobada, pierna, and mixta.</p>
+      </aside>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Wilson Macías | Mexico</p>
+    <p><a href="references.html">References</a></p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

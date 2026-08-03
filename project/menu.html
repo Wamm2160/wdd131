@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Wilson Macías">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/norte-brunch.css">
+  <script src="scripts/norte-brunch.js" defer></script>
+  <meta name="description" content="Norte Brunch menu page with tortas, drinks, desserts, filters, and favorite product saving.">
+  <title>Menu | Norte Brunch</title>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="Norte Brunch logo" width="64" height="64">
+        <span>Norte Brunch</span>
+      </a>
+      <button id="menu-button" type="button" aria-label="Open navigation menu" aria-controls="primary-nav" aria-expanded="false">☰</button>
+      <nav id="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-heading">
+      <h1>Menu</h1>
+      <p>Browse tortas, drinks, and desserts. Use the filter buttons to find what you want.</p>
+    </section>
+
+    <section class="filters" aria-label="Menu filters">
+      <button type="button" class="filter-button active" data-category="all">All</button>
+      <button type="button" class="filter-button" data-category="tortas">Tortas</button>
+      <button type="button" class="filter-button" data-category="drinks">Drinks</button>
+      <button type="button" class="filter-button" data-category="desserts">Desserts</button>
+    </section>
+
+    <p id="menu-status" class="status-message"></p>
+    <section id="menu-list" class="card-grid" aria-label="Menu items"></section>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Wilson Macías | Mexico</p>
+    <p><a href="references.html">References</a></p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

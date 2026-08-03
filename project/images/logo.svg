@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+<title id="title">Norte Brunch logo</title>
+<desc id="desc">Round logo with the letters NB and a torta icon.</desc>
+<rect width="300" height="300" rx="40" fill="#3b2416"/>
+<circle cx="150" cy="150" r="110" fill="#fff4df" stroke="#d97706" stroke-width="14"/>
+<path d="M74 130c18-38 134-38 152 0 10 21-2 43-24 51-27 10-77 10-104 0-22-8-34-30-24-51Z" fill="#d97706"/>
+<path d="M89 139c37 15 85 15 122 0" fill="none" stroke="#3b2416" stroke-width="8" stroke-linecap="round"/>
+<text x="150" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#3b2416">NB</text>
+</svg>

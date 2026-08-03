@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+<title id="title">Pierna torta</title>
+<desc id="desc">Illustration of a pierna pork torta.</desc>
+<rect width="800" height="520" fill="#fff4df"/>
+<ellipse cx="400" cy="400" rx="285" ry="58" fill="#3b2416" opacity=".18"/>
+<path d="M155 235c42-92 448-92 490 0 24 53-34 104-108 115-90 13-184 13-274 0-74-11-132-62-108-115Z" fill="#cc8535"/>
+<path d="M190 245c95 35 325 35 420 0" fill="none" stroke="#fff8e8" stroke-width="18" stroke-linecap="round"/>
+<path d="M215 292c70-30 300-30 370 0v48H215Z" fill="#b65b39"/>
+<path d="M250 303c60 15 240 15 300 0" fill="none" stroke="#ffd2a4" stroke-width="12" stroke-linecap="round"/>
+<text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#3b2416">Pierna</text>
+</svg>

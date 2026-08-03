@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+<title id="title">Cake slice</title>
+<desc id="desc">Illustration of a slice of cake dessert.</desc>
+<rect width="800" height="520" fill="#fff4df"/>
+<ellipse cx="400" cy="405" rx="260" ry="50" fill="#3b2416" opacity=".16"/>
+<path d="M220 180h360l-60 210H280Z" fill="#7a2e17"/>
+<path d="M240 218h320l-18 62H258Z" fill="#fff4df"/>
+<path d="M260 295h262l-18 62H278Z" fill="#fff4df"/>
+<circle cx="355" cy="175" r="24" fill="#d97706"/>
+<circle cx="450" cy="175" r="24" fill="#d97706"/>
+<text x="400" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#3b2416">Pastel</text>
+</svg>
