@@ -1,210 +1,149 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Website planning document for the Norte Brunch final project in WDD 131."
-    />
-    <meta name="author" content="Wilson Macías" />
-    <title>Norte Brunch Website Plan</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/siteplan.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header-content">
-        <p class="eyebrow">WDD 131 Project Planning Document</p>
-        <h1>Norte Brunch Website Plan</h1>
-        <p class="tagline">
-          A responsive website plan for a Mexican torta shop in Querétaro,
-          Mexico.
-        </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website planning document for the Norte Brunch final project in WDD 131.">
+  <meta name="author" content="Wilson Macías">
+  <title>Norte Brunch Website Plan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/siteplan.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <p class="eyebrow">WDD 131 Project Planning Document</p>
+      <h1>Norte Brunch Website Plan</h1>
+      <p class="tagline">A responsive website plan for a Mexican torta shop in Querétaro, Mexico.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="plan-section" id="site-name">
+      <h2>Site Name</h2>
+      <div class="brand-preview">
+        <div class="logo-mark" aria-hidden="true">NB</div>
+        <div>
+          <h3>Norte Brunch</h3>
+          <p>I selected this name because it is the real name of my Mexican torta business. The name is short, memorable, and communicates a casual food experience inspired by flavors from northern Mexico.</p>
+        </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section class="plan-section" id="site-name">
-        <h2>Site Name</h2>
-        <div class="brand-preview">
-          <div class="logo-mark" aria-hidden="true">NB</div>
-          <div>
-            <h3>Norte Brunch</h3>
-            <p>
-              I selected this name because it is the real name of my Mexican
-              torta business. The name is short, memorable, and communicates a
-              casual food experience inspired by flavors from northern Mexico.
-            </p>
+    <section class="plan-section" id="site-purpose">
+      <h2>Site Purpose</h2>
+      <p>The purpose of the Norte Brunch website is to promote the restaurant and provide useful information to current and potential customers. The site will present the available tortas, drinks, desserts, prices, business hours, location, and contact information.</p>
+      <p>The website will also allow visitors to browse and filter menu products, save a favorite product using local storage, and submit a contact form.</p>
+    </section>
+
+    <section class="plan-section" id="scenarios">
+      <h2>Scenarios</h2>
+      <ul>
+        <li>What tortas, drinks, and desserts are available at Norte Brunch?</li>
+        <li>How much does each menu item cost?</li>
+        <li>Where is Norte Brunch located, and what are its business hours?</li>
+        <li>How can a customer contact the restaurant or save a favorite product?</li>
+      </ul>
+    </section>
+
+    <section class="plan-section" id="color-schema">
+      <h2>Color Schema</h2>
+      <p>The website will use a warm color palette that supports the restaurant's welcoming and homemade style.</p>
+      <div class="color-grid">
+        <article class="color-card">
+          <div class="swatch swatch-brown" aria-hidden="true"></div>
+          <h3>Dark Brown</h3>
+          <p><code>#3b2416</code></p>
+          <p>Used for headers, navigation, footer backgrounds, and major headings.</p>
+        </article>
+        <article class="color-card">
+          <div class="swatch swatch-cream" aria-hidden="true"></div>
+          <h3>Warm Cream</h3>
+          <p><code>#fff4df</code></p>
+          <p>Used for the main page background, cards, and light content sections.</p>
+        </article>
+        <article class="color-card">
+          <div class="swatch swatch-orange" aria-hidden="true"></div>
+          <h3>Golden Orange</h3>
+          <p><code>#d97706</code></p>
+          <p>Used for buttons, active links, hover states, and visual accents.</p>
+        </article>
+        <article class="color-card">
+          <div class="swatch swatch-text" aria-hidden="true"></div>
+          <h3>Dark Text</h3>
+          <p><code>#24180f</code></p>
+          <p>Used for body text, product descriptions, and form labels.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="plan-section" id="typography">
+      <h2>Typography</h2>
+      <div class="type-grid">
+        <article class="type-card">
+          <h3 class="montserrat-example">Montserrat</h3>
+          <p>Montserrat will be used for headings, navigation links, buttons, and product names.</p>
+          <p class="montserrat-example sample-text">Fresh Mexican Tortas</p>
+        </article>
+        <article class="type-card">
+          <h3>Roboto</h3>
+          <p>Roboto will be used for paragraphs, menu descriptions, forms, and contact information.</p>
+          <p class="sample-text">Homemade flavor, generous portions, and friendly service.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="plan-section" id="wireframes">
+      <h2>Wireframes</h2>
+      <p>The following sketches show the planned layout of the Norte Brunch home page in mobile and larger views.</p>
+      <div class="wireframe-grid">
+        <article class="wireframe-card">
+          <h3>Mobile View</h3>
+          <div class="wireframe mobile-wireframe">
+            <div class="wf-block wf-header">Logo / Norte Brunch / Menu</div>
+            <div class="wf-block wf-hero">
+              Hero Image
+              <span>Fresh Mexican Tortas</span>
+              <span class="wf-button">View Menu</span>
+            </div>
+            <div class="wf-label">Featured Products</div>
+            <div class="wf-block wf-product">Product Card</div>
+            <div class="wf-block wf-product">Product Card</div>
+            <div class="wf-block wf-info">Business Hours and Location</div>
+            <div class="wf-block wf-footer">Footer / References</div>
           </div>
-        </div>
-      </section>
+        </article>
 
-      <section class="plan-section" id="site-purpose">
-        <h2>Site Purpose</h2>
-        <p>
-          The purpose of the Norte Brunch website is to promote the restaurant
-          and provide useful information to current and potential customers. The
-          site will present the available tortas, drinks, desserts, prices,
-          business hours, location, and contact information.
-        </p>
-        <p>
-          The website will also allow visitors to browse and filter menu
-          products, save a favorite product using local storage, and submit a
-          contact form.
-        </p>
-      </section>
-
-      <section class="plan-section" id="scenarios">
-        <h2>Scenarios</h2>
-        <ul>
-          <li>
-            What tortas, drinks, and desserts are available at Norte Brunch?
-          </li>
-          <li>How much does each menu item cost?</li>
-          <li>
-            Where is Norte Brunch located, and what are its business hours?
-          </li>
-          <li>
-            How can a customer contact the restaurant or save a favorite
-            product?
-          </li>
-        </ul>
-      </section>
-
-      <section class="plan-section" id="color-schema">
-        <h2>Color Schema</h2>
-        <p>
-          The website will use a warm color palette that supports the
-          restaurant's welcoming and homemade style.
-        </p>
-        <div class="color-grid">
-          <article class="color-card">
-            <div class="swatch swatch-brown" aria-hidden="true"></div>
-            <h3>Dark Brown</h3>
-            <p><code>#3b2416</code></p>
-            <p>
-              Used for headers, navigation, footer backgrounds, and major
-              headings.
-            </p>
-          </article>
-          <article class="color-card">
-            <div class="swatch swatch-cream" aria-hidden="true"></div>
-            <h3>Warm Cream</h3>
-            <p><code>#fff4df</code></p>
-            <p>
-              Used for the main page background, cards, and light content
-              sections.
-            </p>
-          </article>
-          <article class="color-card">
-            <div class="swatch swatch-orange" aria-hidden="true"></div>
-            <h3>Golden Orange</h3>
-            <p><code>#d97706</code></p>
-            <p>
-              Used for buttons, active links, hover states, and visual accents.
-            </p>
-          </article>
-          <article class="color-card">
-            <div class="swatch swatch-text" aria-hidden="true"></div>
-            <h3>Dark Text</h3>
-            <p><code>#24180f</code></p>
-            <p>Used for body text, product descriptions, and form labels.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="plan-section" id="typography">
-        <h2>Typography</h2>
-        <div class="type-grid">
-          <article class="type-card">
-            <h3 class="montserrat-example">Montserrat</h3>
-            <p>
-              Montserrat will be used for headings, navigation links, buttons,
-              and product names.
-            </p>
-            <p class="montserrat-example sample-text">Fresh Mexican Tortas</p>
-          </article>
-          <article class="type-card">
-            <h3>Roboto</h3>
-            <p>
-              Roboto will be used for paragraphs, menu descriptions, forms, and
-              contact information.
-            </p>
-            <p class="sample-text">
-              Homemade flavor, generous portions, and friendly service.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="plan-section" id="wireframes">
-        <h2>Wireframes</h2>
-        <p>
-          The following sketches show the planned layout of the Norte Brunch
-          home page in mobile and larger views.
-        </p>
-        <div class="wireframe-grid">
-          <article class="wireframe-card">
-            <h3>Mobile View</h3>
-            <div
-              class="wireframe mobile-wireframe"
-              aria-label="Mobile home page wireframe"
-            >
-              <div class="wf-block wf-header">Logo / Norte Brunch / Menu</div>
-              <div class="wf-block wf-hero">
-                Hero Image
-                <span>Fresh Mexican Tortas</span>
-                <span class="wf-button">View Menu</span>
-              </div>
-              <div class="wf-label">Featured Products</div>
+        <article class="wireframe-card">
+          <h3>Desktop View</h3>
+          <div class="wireframe desktop-wireframe">
+            <div class="wf-block wf-header">Logo / Norte Brunch / Home / Menu / Contact</div>
+            <div class="wf-block wf-hero">
+              Hero Image
+              <span>Fresh Mexican Tortas</span>
+              <span class="wf-button">View Menu</span>
+            </div>
+            <div class="wf-label">Featured Products</div>
+            <div class="wf-products-row">
               <div class="wf-block wf-product">Product Card</div>
               <div class="wf-block wf-product">Product Card</div>
-              <div class="wf-block wf-info">Business Hours and Location</div>
-              <div class="wf-block wf-footer">Footer / References</div>
+              <div class="wf-block wf-product">Product Card</div>
             </div>
-          </article>
-
-          <article class="wireframe-card">
-            <h3>Desktop View</h3>
-            <div
-              class="wireframe desktop-wireframe"
-              aria-label="Desktop home page wireframe"
-            >
-              <div class="wf-block wf-header">
-                Logo / Norte Brunch / Home / Menu / Contact
-              </div>
-              <div class="wf-block wf-hero">
-                Hero Image
-                <span>Fresh Mexican Tortas</span>
-                <span class="wf-button">View Menu</span>
-              </div>
-              <div class="wf-label">Featured Products</div>
-              <div class="wf-products-row">
-                <div class="wf-block wf-product">Product Card</div>
-                <div class="wf-block wf-product">Product Card</div>
-                <div class="wf-block wf-product">Product Card</div>
-              </div>
-              <div class="wf-info-row">
-                <div class="wf-block wf-info">About Norte Brunch</div>
-                <div class="wf-block wf-info">Hours and Location</div>
-              </div>
-              <div class="wf-block wf-footer">
-                Footer / References / Contact
-              </div>
+            <div class="wf-info-row">
+              <div class="wf-block wf-info">About Norte Brunch</div>
+              <div class="wf-block wf-info">Hours and Location</div>
             </div>
-          </article>
-        </div>
-      </section>
-    </main>
+            <div class="wf-block wf-footer">Footer / References / Contact</div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-      <p>&copy; 2026 Wilson Macías | WDD 131</p>
-    </footer>
-  </body>
+  <footer>
+    <p>&copy; 2026 Wilson Macías | WDD 131</p>
+  </footer>
+</body>
 </html>
